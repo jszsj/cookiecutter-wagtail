@@ -1,27 +1,26 @@
 Wagtail cookiecutter
 ====================
 
-A [cookiecutter](https://github.com/audreyr/cookiecutter) template for Wagtail sites.
+Wagtail站点的 [cookiecutter](https://github.com/audreyr/cookiecutter) 项目模板。
 
-
-What's included
+包括
 ---------------
 
- - A Django project with Wagtail preinstalled
- - A ``home`` and ``search`` app
- - Vagrant configuration (using the [torchbox/wagtail](https://github.com/torchbox/vagrant-wagtail-base) base box)
- - Heroku configuration
- - Sphinx docs
+ - 一个预配置Wagtail的Django项目
+ - ``home``和``search``应用
+ - Vagrant虚拟机配置文件(默认使用基于[torchbox/wagtail](https://github.com/torchbox/vagrant-wagtail-base) 的box镜像)
+ - Heroku配置文件
+ - Sphinx文档支持
 
 
-Usage
+用法
 -----
 
-Firstly, make sure cookiecutter is installed. See [Installation](http://cookiecutter.readthedocs.org/en/latest/installation.html)
+首先，确认cookiecutter已安装。见文档[Installation](http://cookiecutter.readthedocs.org/en/latest/installation.html)
 
-Then run:
+然后运行：
 
-     cookiecutter https://github.com/torchbox/cookiecutter-wagtail.git
+     cookiecutter https://github.com/jszsj/cookiecutter-wagtail.git
 
 
-Answer the questions and you're done!
+根据提示输入配置信息，完成！
